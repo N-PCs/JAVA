@@ -5,7 +5,7 @@ public class helloworld {
     public static void main(String[] args) {
         System.out.println("Hello,World!");
         System.out.println("This is Lord NP! ,\nthe protector of the world!");
-        System.out.println("");
+        System.out.println("hi");
     }
 }
 /* usage of system library for getting output */
