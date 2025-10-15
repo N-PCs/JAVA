@@ -6,12 +6,14 @@ public class ConstructorTypes {
     public ConstructorTypes(){
         System.out.println("hello world!");
     }
+    
     public ConstructorTypes(String c,int p){
         car=c;
         price=p;
         System.out.println(c);
         System.out.println(p);
     }
+    
     public static void main(String[] args){
         ConstructorTypes p=new ConstructorTypes("NISSAN",2000000);
         ConstructorTypes d=new ConstructorTypes();
@@ -29,3 +31,4 @@ public class ConstructorTypes {
     }
     
 }
+
